@@ -1163,6 +1163,18 @@ But it might be needed for Java 10, because I get this error, that I don't get w
 				<artifactId>jspc-maven-plugin</artifactId>
 				<version>2.0.2</version>
 			</plugin>
+			<plugin>
+				<groupId>org.owasp</groupId>
+				<artifactId>dependency-check-maven</artifactId>
+				<version>6.0.3</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>check</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 
 		</plugins>
 
